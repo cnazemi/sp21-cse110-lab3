@@ -18,19 +18,26 @@
     <br>
     <main>
         <nav class="menu">
-            <i>Quick Nav:</i> 
-            <ul>
+            
+
+            <details>
+                <summary><i>Quick Navigation:</i> </summary>
+                <ul>
               
-              <li><a href="#Catching-up">Day 1</a></li>
-              <li><a href="#Quiz">Day 2</a></li>
-              <li><a href="#Meeting">Day 3</a></li>
-            </ul>
+                    <li><a href="#Catching-up">Day 1</a></li>
+                    <li><a href="#Quiz">Day 2</a></li>
+                    <li><a href="#Meeting">Day 3</a></li>
+                  </ul>
+            </details>
+            
           </nav>
         <br>
         <hr>
         <h2 id="Catching-up">Catching up</h2>
         <h3><b><i>A day used to catch up on lectures</i></b></h3>
         <section>04/09/21</section>
+        <section>Feeling: Good</section>
+        <section>Stress Level: 4</section>
         <section>
             <p>
             I've been a bit behind on my work lately, it may be because I can't get over the fact that Spring break was only 1 week. Regardless, I have a quiz for CSE 101 that I need to first watch the most recent lecture on before I can take that. Here is a list of the classes I have to watch lectures in:
@@ -49,6 +56,8 @@
         <h2 id="Quiz">Quiz Day!</h2>
         <h3><b><i>Got a quiz today for CSE 101!</i></b></h3>
         <section>04/10/21</section>
+        <section>Feeling: Okay</section>
+        <section>Stress Level: 3</section>
         <section>
             <p>
             Todays the day I had a quiz for CSE 101! To start the day of studying, I tried out the practice quiz, which to my surprise was <strong>SUPER</strong> challenging. This made me study even harder to get ready for the real thing. I had to take it before midnight tonight and it is a timed 1 hr long test. After I want to play my favorite video game Rocket League to relieve the stress! So heres my priority of things to do today:
@@ -77,17 +86,22 @@
         <h2 id="Meeting">Meeting with Group</h2>
         <h3><b><i>Today I meet with my CSE 101 group to start the homework.</i></b></h3>
         <section>04/11/21</section>
+        <section>Feeling: Good</section>
+        <section>Stress Level: 1</section>
         <section>
             <p>
-            I am meeting up today with my CSE 101 group. It is hopefully going to be seemless. I was in another group before this one, but they had ditched me to go join another group. So I reached out to another group and join them. I also need to watch some more lecture videos for CSE 130 to catch up too. 
+            I am meeting up today with my CSE 101 group. It is hopefully going to be seemless. I was in another group before this one, but they had ditched me to go join another group. So I reached out to another group and join them. I also need to watch some more lecture videos for CSE 130 to catch up too. I've been watching some old Steve Jobs interviews on YouTube too, which have been insightful. Here's one of my favorite quotes from him in an Apple commercial:
             
-            <ol>
-                <li>CSE 101 QUIZ</li>
-                <li>Relax/ Play Rocket League</li>
+            <br>
+            <br>
 
-            </ol>
+            <video controls width="500">
 
-            I listened to this song/ quote from Alan Watts on Spotify today and it was truly inspirational:
+                <source src="SteveJobs.mp4"
+                        type="video/mp4">
+            
+                Sorry, your browser doesn't support embedded videos.
+            </video>
 
            
             
@@ -96,7 +110,71 @@
         </section>
         <hr>
 
-        
+        <br>
+        <h2><b>NEW ENTRY:</b> </h2>
+        <form action="" method="get" class="form-example">
+            <div class="form-example">
+              <label for="name">Enter your entry title: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <br>
+            <div class="form-example">
+              <label for="sub">Enter your entry sub-title: </label>
+              <input type="sub" name="sub" id="sub" required>
+            </div>
+            <br>
+            <div class="form-example">
+                <label for="date">Enter your entry date: </label>
+                <input type="date" name="date" id="date" required>
+            </div>
+            <br>
+            
+            <label for="story">What happened today?:</label>
+            <br>
+            <textarea id="story" name="story"
+                    rows="5" cols="33">
+            
+            </textarea>
+            <br>
+            <br>
+            <form>
+                <fieldset>
+                  <legend>How do you feel today?</legend>
+              
+                  <input type="radio" id="good" name="good">
+                  <label for="good">Good</label><br/>
+              
+                  <input type="radio" id="okay" name="okay">
+                  <label for="okay">Okay</label><br/>
+              
+                  <input type="radio" id="bad" name="bad">
+                  <label for="bad">Bad</label>
+                </fieldset>
+            </form>
+
+            <br>
+            <br>
+            <label for="ice-cream-choice">Choose a flavor:</label>
+                <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+                <datalist id="ice-cream-flavors">
+                    <option value="Chocolate">
+                    <option value="Coconut">
+                    <option value="Mint">
+                    <option value="Strawberry">
+                    <option value="Vanilla">
+                </datalist>
+
+            <br>
+            <br>
+            <div class="form-example">
+              <input type="submit" value="Save">
+            </div>
+          </form>
+
+
+
+
 
     </main>
     <br>
