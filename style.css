@@ -19,6 +19,23 @@ li {
     display: inline;
 }
 
+ol li {
+    list-style-type: circle;
+    text-align: center;
+}
+
+ul > li {
+    list-style-type: circle;
+    text-align: center;
+}
+
+img ~ p {
+    color: rgb(36, 187, 68);
+}
+
+p + img {
+    color: red;
+}
 
 
 /* Header 1 */
@@ -64,7 +81,8 @@ html {
 section {
     font-size: 3ex;
     color: hsl(0,100%,25%);
-    text-align: center
+    text-align: center;
+    display: grid;
 }
 
 p {
@@ -103,6 +121,10 @@ video {
 
 }
 
+img {
+    display: flex;
+}
+
 button:hover {
     color: green;
     
@@ -113,8 +135,31 @@ button:active {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: rgb(173, 230, 173);
-    }
-  }
+body {
+    background-color: rgb(173, 230, 173);
+}
+}
+
+.favoritestyled {
+    background-color: rgb(209, 219, 191);
+}
+
+ 
+
+#Catching-up {
+    color: rgb(46, 168, 168);
+}
+
+* {
+    text-align: center;
+}
+
+form[class="form-example"] {
+    background-color: yellow;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
 
