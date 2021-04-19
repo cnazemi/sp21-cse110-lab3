@@ -1,3 +1,9 @@
 p {
     color: red;
 }
+
+/* Header 1 color */
+h1
+{
+    color: #FF0000;
+}
