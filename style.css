@@ -3,7 +3,8 @@ ol {
     color: rgb(0, 183, 255);
     font-size: 1.2em;
     margin-left: .5in;
-    margin:1cm 1cm 1cm 1cm
+    margin:1cm 1cm 1cm 1cm;
+    display: block;
 }
 
 /* Unordered Lists Style */
@@ -13,6 +14,12 @@ ul {
     font-size: 1.2em;
     margin-right: 10cm;
 }
+
+li {
+    display: inline;
+}
+
+
 
 /* Header 1 */
 h1
@@ -59,10 +66,12 @@ p {
     padding-right: 1em;
     padding-left: 1em;
     
+    
 }
 
 summary {
     padding-left: 1em;
+    
 }
 
 audio {
@@ -72,4 +81,25 @@ audio {
     border-color:double;
     border-width:1pc;
     border-radius:15pt;
+    display: inline;
+    position:static;
 }
+
+video {
+    max-width:250mm;
+    max-width:150mm;
+    height:100mm;
+    width:150mm;
+
+    position:sticky;
+
+}
+
+button:hover {
+    color: green;
+    
+}
+button:active {
+    color: white;
+    background-color: green;
+  }
