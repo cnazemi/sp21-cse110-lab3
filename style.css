@@ -1,9 +1,105 @@
-p {
-    color: red;
+/* Ordered Lists Style */
+ol {
+    color: rgb(0, 183, 255);
+    font-size: 1.2em;
+    margin-left: .5in;
+    margin:1cm 1cm 1cm 1cm;
+    display: block;
 }
 
-/* Header 1 color */
+/* Unordered Lists Style */
+
+ul {
+    color: blueviolet;
+    font-size: 1.2em;
+    margin-right: 10cm;
+}
+
+li {
+    display: inline;
+}
+
+
+
+/* Header 1 */
 h1
 {
-    color: #FF0000;
+    color: hsl(0,100%,25%);
+    text-align: center;
+    text-decoration:coral;
+    margin-top: 1cm;
+    margin-bottom: -0.1mm;
 }
+
+/* Header 2 */
+h2
+{
+
+    margin: auto;
+    text-align: center;
+    padding-top:20mm;
+    padding-bottom:5mm
+    
+}
+
+/* Header 3 */
+h3
+{
+    margin: auto;
+    text-align: center;
+    padding-bottom:5mm
+}
+
+html {
+    background-color: #cccccc;
+    font-size: 20px;
+}
+
+section {
+    font-size: 3ex;
+    color: hsl(0,100%,25%);
+    text-align: center
+}
+
+p {
+    font-size: 1rem;
+    padding-right: 1em;
+    padding-left: 1em;
+    
+    
+}
+
+summary {
+    padding-left: 1em;
+    
+}
+
+audio {
+    align-content: center;
+    padding: 1cm 1cm 1cm 1cm;
+    border-style:inset;
+    border-color:double;
+    border-width:1pc;
+    border-radius:15pt;
+    display: inline;
+    position:static;
+}
+
+video {
+    max-width:250mm;
+    max-width:150mm;
+    height:100mm;
+    width:150mm;
+
+    position:sticky;
+
+}
+
+button:hover {
+    color: green;
+    
+}
+button:active {
+    color: white;
+    background-color: green;
+  }
