@@ -19,6 +19,23 @@ li {
     display: inline;
 }
 
+ol li {
+    list-style-type: circle;
+    text-align: center;
+}
+
+ul > li {
+    list-style-type: circle;
+    text-align: center;
+}
+
+img ~ p {
+    color: rgb(36, 187, 68);
+}
+
+p + img {
+    color: red;
+}
 
 
 /* Header 1 */
@@ -29,12 +46,18 @@ h1
     text-decoration:coral;
     margin-top: 1cm;
     margin-bottom: -0.1mm;
+    font-family: "Roboto-Medium.ttf";
+}
+
+@font-face {
+    font-family: "Roboto-Medium.ttf";
+    src: url(Roboto/Roboto-Medium.ttf);
 }
 
 /* Header 2 */
 h2
 {
-
+    font-family: "Roboto-Medium.ttf";
     margin: auto;
     text-align: center;
     padding-top:20mm;
@@ -58,7 +81,8 @@ html {
 section {
     font-size: 3ex;
     color: hsl(0,100%,25%);
-    text-align: center
+    text-align: center;
+    display: grid;
 }
 
 p {
@@ -92,7 +116,13 @@ video {
     width:150mm;
 
     position:sticky;
+    display: flex; /* or inline-flex */
+    
 
+}
+
+img {
+    display: flex;
 }
 
 button:hover {
@@ -102,4 +132,34 @@ button:hover {
 button:active {
     color: white;
     background-color: green;
-  }
+}
+
+@media only screen and (max-width: 600px) {
+body {
+    background-color: rgb(173, 230, 173);
+}
+}
+
+.favoritestyled {
+    background-color: rgb(209, 219, 191);
+}
+
+ 
+
+#Catching-up {
+    color: rgb(46, 168, 168);
+}
+
+* {
+    text-align: center;
+}
+
+form[class="form-example"] {
+    background-color: yellow;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+
